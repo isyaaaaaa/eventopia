@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+ <header>
+  <!--- START PACKAGE PAGE --->
+   <div-class="main">
+
+    <div class="hero-image">
+      
+     <div class="logo">
+     <img src="image/logo.jpeg" />
+
+       <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li class="active"> <a href="about.html">ABOUT US</a></li>
+          <li><a href="hall.html">HALL</a></li>
+          <li><a href="package.html">PACKAGE</a></li>
+          <li><a href="contact.html">CONTACT US</a></li>
+       </ul>
+
+      <div class="title">
+        <h1><center><em>Eventopia</em></center><h1>
+        <h2><center>Ready To Create New Memory ?</center></h2>
+      </div>
+      <br>       
+    </div>
+    </div>
+
+ </header>
+ 
+   <!--- START CONTACT PAGE --->
+    <main>
+    <section class="content">
+        <h2><center>Book Your Event Hall</center></h2><br>
+		<p><center>Fill out the form below to reserve your hall and package!</center></p>
+		
+       <form action="#" method="POST" class="booking-form">
+            <!-- Personal Information -->
+            <fieldset>
+                <legend>Personal Information</legend>
+                <div class="form-group">
+                    <label for="name">1. Full Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Your Full Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">2. Email Address:</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email Address" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">3. Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Your Phone Number" required>
+                </div>
+            </fieldset>
+
+            <!-- Event Details -->
+            <fieldset>
+                <legend>Event Details</legend>
+                <div class="form-group">
+                    <label for="event-type">4. Event Type:</label>
+                    <select id="event-type" name="event_type" required>
+                        <option value="" disabled selected>Select an Event Type</option>
+                        <option value="wedding">Wedding</option>
+                        <option value="birthday">Birthday Party</option>
+                        <option value="dinner">Dinner Party</option>
+                        <option value="family">Family Day</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="event-date">5. Event Date:</label>
+                    <input type="date" id="event-date" name="event_date" required>
+                </div>
+                <div class="form-group">
+                    <label for="guests">6. Number of Guests:</label>
+                    <input type="number" id="guests" name="guests" placeholder="Number of Guests" required>
+                </div>
+            </fieldset>
+
+            <!-- Hall and Package Selection -->
+            <fieldset>
+                <legend>Hall and Package Selection</legend>
+                <div class="form-group">
+                    <label for="hall">7. Select Hall:</label>
+                    <select id="hall" name="hall" required>
+                        <option value="" disabled selected>Choose a Hall</option>
+                        <option value="hall1">Grand Hall Eco Palladium</option>
+                        <option value="hall2">Gamuda Garden Rawang</option>
+                        <option value="hall3">Royal Ballroom</option>
+						<option value="hall4">Grand Palace One City</option>
+						<option value="hall5">Infinity Grace Hall</option>
+						<option value="hall6">The Grand Opulence Hall</option>
+						<option value="hall7">Starlight Hall</option>
+						<option value="hall8">The Grand Opulence Hall</option>
+						<option value="hall9">Golden Horizon Hall</option>
+						<option value="hall10">Aurora Celebration Hall</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="package">8. Select Package:</label>
+                    <select id="package" name="package" required>
+                        <option value="" disabled selected>Choose a Package</option>
+                        <option value="A">Package A</option>
+                        <option value="B">Package B</option>
+                        <option value="C">Package C</option>
+						<option value="D">Package D</option>
+                    </select>
+                </div>
+				
+				 <div class="form-group">
+                    <label>9. Would you like catering services?</label>
+                    <label><input type="radio" name="catering" value="yes" required> Yes</label>
+                    <label><input type="radio" name="catering" value="no"> No</label>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Additional Services</legend>
+                <div class="form-group">
+                    <label>10. Do you need audio/visual equipment?</label>
+                    <label><input type="checkbox" name="services[]" value="projector"> Projector</label>
+                    <label><input type="checkbox" name="services[]" value="microphone"> Microphone</label>
+                    <label><input type="checkbox" name="services[]" value="sound_system"> Sound System</label>
+                </div>
+                <div class="form-group">
+                    <label>11. Would you like decoration services?</label>
+                    <label><input type="radio" name="decoration" value="yes" required> Yes</label>
+                    <label><input type="radio" name="decoration" value="no"> No</label>
+                </div>
+            </fieldset>
+
+            <!-- Section 6: Special Requests -->
+            <fieldset>
+                <legend>Special Requests</legend>
+                <div class="form-group">
+                    <label for="theme">12. Do you have a specific theme for your event?</label>
+                    <input type="text" id="theme" name="theme" placeholder="Enter your event theme">
+                </div>
+                <div class="form-group">
+                    <label for="comments">13. Any other special requests or comments?</label>
+                    <textarea id="comments" name="comments" placeholder="Write your special requests here..." rows="4"></textarea>
+                </div>
+            </fieldset>
+
+            <!-- Section 7: Confirmation -->
+            <fieldset>
+                <legend>Confirmation</legend>
+                <div class="form-group">
+                    <label>14. How did you hear about us?</label>
+                    <select name="referral" required>
+                        <option value="" disabled selected>Select an option</option>
+                        <option value="social_media">Social Media</option>
+                        <option value="search_engine">Search Engine</option>
+                        <option value="friend_family">Friend/Family</option>
+                        <option value="advertisement">Advertisement</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>15. Do you agree to our terms and conditions?</label>
+                    <label><input type="checkbox" name="terms" required> I agree</label>
+                </div>
+            </fieldset>
+
+            <!-- Submit Button -->
+            <div class="form-group">
+                <button type="submit" class="submit-btn">Submit Booking</button>
+            </div>
+        </form>
+    </main>
+
+
+ <!--- END PACKAGE PAGE --->
+
+    <footer>
+        <p>
+            &copy; 2025 Eventopia. All Rights Reserved. <br>
+            Designed by: Farisah, Ieka, Sophea <br>
+            Best viewed: Chrome 114.0 & 1366x768 <br>
+            Last update: January 21st, 2025 <br>
+            <em>Disclaimer: This website is not the official website of Eventopia. This website was developed for learning purposes only.</em>
+        </p>
+    </footer>
+</body>
+</html>

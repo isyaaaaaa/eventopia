@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="package.xsl"?>
+
+<packages>
+    <package>
+        <id>A</id>
+        <name>Wedding Day</name>
+        <price>RM10,999.00</price>
+        <description>Make your dream wedding come true with our premium wedding package.</description>
+        <details>
+            <detail>1. Event Hall Rental (10 hours)</detail>
+            <detail>2. Customizable Theme Decoration</detail>
+            <detail>3. Professional Event Coordinator</detail>
+            <detail>4. Buffet Catering for 200 Guests</detail>
+            <detail>5. Buffet catering with a choice of 3 menus.</detail>
+            <detail>6. Complimentary dessert table with assorted pastries and cakes.</detail>
+            <detail>7. Professional Emcee to host your event.</detail>
+            <detail>8. Complimentary bridal changing room for the day.</detail>
+        </details>
+    </package>
+    <package>
+        <id>B</id>
+        <name>Birthday Party</name>
+        <price>RM5,999.00</price>
+        <description>Celebrate your special day with a magical birthday party package.</description>
+        <details>
+            <detail>1. Event Hall Rental (6 hours)</detail>
+            <detail>2. Customizable Theme Decoration</detail>
+            <detail>3. Professional Event Coordinator</detail>
+            <detail>4. Buffet Catering for 50 Guests</detail>
+            <detail>5. Custom Birthday Cake (3-tier)</detail>
+            <detail>6. Photo Booth with Props</detail>
+            <detail>7. Kids Entertainment (Magician or Clown)</detail>
+            <detail>8. Personalized Invitations</detail>
+            <detail>9. Background Music and Sound System</detail>
+        </details>
+    </package>
+    <package>
+        <id>C</id>
+        <name>Dinner Party</name>
+        <price>RM9,999.00</price>
+        <description>Host an elegant dinner party with our premium package.</description>
+        <details>
+            <detail>1. Event Hall Rental (6 hours)</detail>
+            <detail>2. Customized Dinner Table Setup</detail>
+            <detail>3. Buffet Dinner for 100 Guests</detail>
+            <detail>4. Professional Event Coordinator</detail>
+            <detail>5. Ambient Lighting Decor</detail>
+            <detail>6. Professional Sound System</detail>
+            <detail>7. Photographer (4 hours)</detail>
+            <detail>8. Welcome Drinks Station</detail>
+            <detail>9. Dedicated Waitstaff</detail>
+        </details>
+    </package>
+    <package>
+        <id>D</id>
+        <name>Family Day</name>
+        <price>RM7,999.00</price>
+        <description>Create lasting memories with our all-inclusive Family Day package.</description>
+        <details>
+            <detail>1. Event Hall Rental (8 hours)</detail>
+            <detail>2. Themed Decorations</detail>
+            <detail>3. Buffet Lunch And  Tea Break for 150 Guests</detail>
+            <detail>4. Fun Activities  Games</detail>
+            <detail>5. Kids’ Play Zone</detail>
+            <detail>6. Professional Event Host</detail>
+            <detail>7. Photography And Videography (Full Event)</detail>
+            <detail>8. Sound System with Playlist</detail>
+            <detail>9. Welcome Goodie Bags</detail>
+            <detail>10.Dedicated Event Crew</detail>
+        </details>
+    </package>
+</packages>

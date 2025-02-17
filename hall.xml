@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="hall.xsl"?>
+<halls>
+    <hall>
+        <name>Grand Hall Eco Palladium</name>
+        <state>Johor</state>
+        <city>Johor Bahru</city>
+        <poscode>81100</poscode>
+        <price>10000</price>
+        <capacity>500</capacity>
+    </hall>
+    <hall>
+        <name>Gamuda Garden Rawang</name>
+        <state>Selangor</state>
+        <city>Sungai Buloh</city>
+        <poscode>47000</poscode>
+        <price>8500</price>
+        <capacity>400</capacity>
+    </hall>
+    <hall>
+        <name>Royal Ballroom</name>
+        <state>Pulau Pinang</state>
+        <city>George Town</city>
+        <poscode>10300</poscode>
+        <price>12000</price>
+        <capacity>600</capacity>
+    </hall>
+    <hall>
+        <name>Grand Palace One City</name>
+        <state>Selangor</state>
+        <city>Subang Jaya</city>
+        <poscode>47500</poscode>
+        <price>15000</price>
+        <capacity>700</capacity>
+    </hall>
+    <hall>
+        <name>Infinity Grace Hall</name>
+        <state>Perlis</state>
+        <city>Kangar</city>
+        <poscode>01000</poscode>
+        <price>7500</price>
+        <capacity>300</capacity>
+    </hall>
+	<hall>
+        <name>The Grand Opulence Hall</name>
+        <state>Melaka</state>
+        <city>Alor Gajah</city>
+        <poscode>71350</poscode>
+        <price>15200</price>
+        <capacity>1000</capacity>
+    </hall>
+	<hall>
+        <name>Starlight Hall</name>
+        <state>Kuala Terengganu</state>
+        <city>Kemaman</city>
+        <poscode>24000</poscode>
+        <price>7900</price>
+        <capacity>200</capacity>
+    </hall>
+	<hall>
+        <name>Golden Horizon Hall</name>
+        <state>Negeri Sembilan</state>
+        <city>Seremban</city>
+        <poscode>70400</poscode>
+        <price>11000</price>
+        <capacity>500</capacity>
+    </hall>
+	<hall>
+        <name>Aurora Celebration Hall</name>
+        <state>Selangor</state>
+        <city>Shah Alam</city>
+        <poscode>40150</poscode>
+        <price>15000</price>
+        <capacity>300</capacity>
+    </hall>
+	<hall>
+        <name>Moonlight Hall</name>
+        <state>Selangor</state>
+        <city>Bangi</city>
+        <poscode>43600</poscode>
+        <price>17000</price>
+        <capacity>800</capacity>
+    </hall>
+</halls>
